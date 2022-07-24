@@ -1,0 +1,432 @@
+{
+    "cogs": {
+        "Fun": {
+            "name": "Fun",
+            "description": "Some fun commands",
+            "commands": {
+                "8ball": {
+                    "description": "Ask 8ball a question.",
+                    "question": "That doesn't look like a question.",
+                    "examples": ["Am I fat?"],
+                    "answers": [
+                        "As I see it, yes",
+                        "It is certain",
+                        "It is decidedly so",
+                        "Most likely",
+                        "Outlook good",
+                        "Signs point to yes",
+                        "Without a doubt",
+                        "Yes",
+                        "Yes – definitely",
+                        "You may rely on it",
+                        "Reply hazy, try again",
+                        "Ask again later",
+                        "Better not tell you now",
+                        "Cannot predict now",
+                        "Concentrate and ask again",
+                        "Don't count on it",
+                        "My reply is no",
+                        "My sources say no",
+                        "Outlook not so good",
+                        "Very doubtful",
+                        "testù, testù, testù testù! testù testù testù"
+                    ]
+                },
+                "choose": {
+                    "description": "Choose between multiple options.\nYou have to split every choice with a comma.",
+                    "examples": ["Go to school, Do onlime school"],
+                    "nochoose": "Not enough options to pick from."
+                },
+                "roll": {
+                    "description": "Roll a random number",
+                    "examples": ["", "25"]
+                },
+                "flip": {
+                    "description": "Flip a coin.",
+                    "heads": "Got heads.",
+                    "tails": "Got tails."
+                },
+                "rps": {
+                    "description": "Play rock, paper, scissors.",
+                    "invalid": "This isn't a valid option. Try rock, paper, or scissors.",
+                    "win": "You win",
+                    "lose": "You lose",
+                    "square": "We're square"
+                },
+                "lmgtfy": {
+                    "description": "Creates a Lmgtfy link.",
+                    "examples": ["How to make a Discord bot"]
+                },
+                "say": {
+                    "description": "Make the bot say something.",
+                    "examples": ["Hello, I am StrapBot!"]
+                },
+                "reverse": {
+                    "description": "!txeT ruoY esreveR",
+                    "examples": ["Reverse Your Text!"]
+                },
+                "emojify": {
+                    "description": "Turns your text into emojis!",
+                    "examples": ["hello everyone"],
+                    "unsupported": "Characters must be either a letter or number. Anything else is unsupported",
+                    "toomany": "Emoji is too big to fit in a message!"
+                },
+                "roast": {
+                    "description": "Roast someone! If you suck at roasting them yourself.",
+                    "examples": ["@BecoMaster01"],
+                    "roasts": [
+                        "I'd give you a nasty look but you've already got one.",
+                        "If you're going to be two-faced, at least make one of them pretty.",
+                        "The only way you'll ever get laid is if you crawl up a chicken's ass and wait.",
+                        "It looks like your face caught fire and someone tried to put it out with a hammer.",
+                        "I'd like to see things from your point of view, but I can't seem to get my head that far up your ass.",
+                        "Scientists say the universe is made up of neutrons, protons and electrons. They forgot to mention morons.",
+                        "Why is it acceptable for you to be an idiot but not for me to point it out?",
+                        "Just because you have one doesn't mean you need to act like one.",
+                        "Someday you'll go far... and I hope you stay there.",
+                        "Which sexual position produces the ugliest children? Ask your mother.",
+                        "No, those pants don't make you look fatter - how could they?",
+                        "Save your breath - you'll need it to blow up your date.",
+                        "If you really want to know about mistakes, you should ask your parents.",
+                        "Whatever kind of look you were going for, you missed.",
+                        "Hey, you have something on your chin... no, the 3rd one down.",
+                        "I don't know what makes you so stupid, but it really works.",
+                        "You are proof that evolution can go in reverse.",
+                        "Brains aren't everything. In your case they're nothing.",
+                        "I thought of you today. It reminded me to take the garbage out.",
+                        "You're so ugly when you look in the mirror, your reflection looks away.",
+                        "Quick - check your face! I just found your nose in my business.",
+                        "It's better to let someone think you're stupid than open your mouth and prove it.",
+                        "You're such a beautiful, intelligent, wonderful person. Oh I'm sorry, I thought we were having a lying competition.",
+                        "I'd slap you but I don't want to make your face look any better.",
+                        "You have the right to remain silent because whatever you say will probably be stupid anyway."
+                    ],
+                    "roastyou": "Uh?!! Nice try! I am not going to roast myself. Instead I am going to roast you now."
+                },
+                "smallcaps": {
+                    "description": "ᴄᴏɴᴠᴇʀᴛ ʏᴏᴜʀ ᴛᴇxᴛ ᴛᴏ ꜱᴍᴀʟʟ ᴄᴀᴘꜱ!!",
+                    "examples": ["convert your text to small caps!!"]
+                },
+                "cringe": {
+                    "description": "mAkE ThE TeXt cRiNgY!!",
+                    "examples": ["make the text cringy!!"]
+                },
+                "inspirobot": {
+                    "description": "Send an InspiroBot quote.",
+                    "messages": {
+                        "single": "The quotes are automatically generated by an AI,\nso those might not always be family-friendly.\nThe image has been spoiled.",
+                        "multi": "The quotes are automatically generated by an AI,\nso those might not always be family-friendly.\nThe images have been spoiled."
+                    }
+                },
+                "meme": {
+                    "description": "Gives a random meme."
+                },
+                "crab": {
+                    "description": "🦀🦀🦀"
+                },
+                "youtube": {
+                    "description": "Make a comment"
+                },
+                "whodidthis": {
+                    "description": "WHO DID THIS? 😂 😂 😂"
+                },
+                "whothisis": {
+                    "description": "I don't know who he is"
+                },
+                "changemymind": {
+                    "description": "Change my mind."
+                },
+                "jail": {
+                    "description": "Puts you in a jail"
+                },
+                "award": {
+                    "description": "Award yourself"
+                },
+                "fuckup": {
+                    "description": "Make some text unreadable.",
+                    "examples": ["Hello World!", "testù"]
+                },
+                "story": {
+                	"description": "An AI creates a story from a piece of text\nPowered by [DeepAI](https://deepai.org/machine-learning-model/text-generator)."
+                }
+            }
+        },
+        "Music": {
+            "name": "Music",
+            "description": "Listen to your favorite music with StrapBot!",
+            "error": "An error occurred: {}",
+            "commands": {
+                "summon": {
+                    "description": "Summons the bot to a voice channel.",
+                    "error": "You are neither connected to a voice channel nor specified a channel to join."
+                },
+                "leave": {
+                    "description": "Clears the queue and leaves the voice channel.",
+                    "error": "Not connected to any voice channel."
+                },
+                "now": {
+                    "description": "Displays the currently playing song."
+                },
+                "pause": {
+                    "description": "Pauses/Resumes the currently playing song."
+                },
+                "stop": {
+                    "description": "Stops playing song and clears the queue."
+                },
+                "skip": {
+                    "description": "Skips to the next song.",
+                    "error": "Not playing any music right now...",
+                    "vote": {
+                        "voted": "Voted",
+                        "success": "Your skip vote has been added!",
+                        "error": "You have already voted to skip this song.",
+                        "current_": "Currently at"
+                    }
+                },
+                "queue": {
+                    "description": "Shows the player's queue.",
+                    "error": "Empty queue.",
+                    "tracks": "**{} tracks:**\n\n{}\n\n{}",
+                    "pages": "Viewing page {}/{}",
+                    "current_": "Current song: **{}**"
+                },
+                "shuffle": {
+                    "description": "Shuffles the queue.",
+                    "error": "Empty queue."
+                },
+                "remove": {
+                    "description": "Removes a song from the queue.",
+                    "examples": ["4"],
+                    "error": "Empty queue."
+                },
+                "loop": {
+                    "description": "Loops the currently playing song.",
+                    "error": "Nothing being played at the moment."
+                },
+                "play": {
+                    "description": "Plays a song.",
+                    "examples": [
+                        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                        "https://youtube.com/playlist?list=PLRBp0Fe2GpgnIh0AiYKh7o7HnYAej-5ph"
+                    ],
+                    "noresults": "Couldn't find anything that matches `{}`",
+                    "unfetchable": "Couldn't fetch {}",
+                    "queueing": "Adding to queue...",
+                    "fetching": "Fetching song(s), this might take a while...",
+                    "queued": "Enqueued {} songs.",
+                    "playing": "Started playing {} now!"
+                },
+                "search": {
+                    "description": "Searchs for a YouTube video.",
+                    "examples": ["Never Gonna Give You Up"],
+                    "error": "An error occurred while processing this request: {}",
+                    "queued": "Enqueued {}",
+                    "sel_invalid": "Invalid selection.",
+                    "timeout": "Time's up!",
+                    "results": "Search results for",
+                    "choose": "\n**Type a number to choose it, or `cancel` to exit**"
+                },
+                "volume": {
+                    "description": "Changes the player's volume.",
+                    "examples": ["57"],
+                    "nothing": "Nothing is being played at the moment.",
+                    "info": "At the moment volume is set to {}%.",
+                    "error": "Volume must be between 1 and 100.",
+                    "success": "Success",
+                    "before": "Before",
+                    "done": "The player's volume has been set to {}%"
+                }
+            }
+        },
+        "Config": {
+            "name": "Config",
+            "description": "Configure StrapBot!",
+            "commands": {
+                "config": {
+                    "description": "Configure StrapBot!",
+                    "examples": ["server lang it", "user lang en"]
+                },
+                "config user lang": {
+                    "description": "Configure your language.\n**NOTE:** the only valid languages\nare `en` and `it` for now.",
+                    "embed": {
+                        "title": "Language changed!",
+                        "description": "You set your language to English!"
+                    }
+                },
+                "config user beta": {
+                    "description": "Toggle beta commands.",
+                    "eembed": {
+                        "title": "Beta commands",
+                        "description": "Enabled!"
+                    },
+                    "dembed": {
+                        "title": "Beta commands",
+                        "description": "Disabled!"
+                    }
+                },
+                "config server lang": {
+                    "description": "Configure server's language.\n**NOTE:** the only valid languages\nare `en` and `it` for now.",
+                    "embed": {
+                        "title": "Language changed!",
+                        "description": "You set the server's language to English!"
+                    }
+                }
+            }
+        },
+        "Utilities": {
+            "name": "Utilities",
+            "ergavincy": "Made by {} and {}",
+            "commands": {
+                "help": {
+                    "description": "Shows this message.",
+                    "example": "Examples",
+                    "embed": {
+                        "description": "This is a list of commands in this bot.\n\n**`{prefix}help`**; **`{prefix}config`**; **`{prefix}report`**\n**Tip:** You can enable some hidden beta commands by running `{prefix}config user beta`",
+                        "footer": {
+                            "text": "Made by {ergastolator} and {vincy}",
+                            "icon_url": "https://cdn.discordapp.com/avatars/740140581174378527/226deca56aaa9cbe5f27dcbf7dda732d.webp"
+                        },
+                        "author": {
+                            "name": "StrapBot",
+                            "icon_url": "https://cdn.discordapp.com/avatars/740140581174378527/226deca56aaa9cbe5f27dcbf7dda732d.webp"
+                        }
+                    }
+                },
+                "invite": {
+                    "description": "Invite me to your server!",
+                    "title": "Invite me!",
+                    "description_": "[Click here](https://strapbot.xyz/invite) to invite me to your server!\nAlso join our [support server](https://discord.gg/G4de45Bywg)!"
+                },
+                "servers": {
+                    "description": "Shows the amount of servers I'm in.",
+                    "title": "Total servers.",
+                    "description_": "I'm in {} servers!"
+                },
+                "ping": {
+                    "description": "Shows the bot's latency.",
+                    "latency": "Total latency"
+                }
+            }
+        },
+        "Moderation": {
+            "name": "Moderation",
+            "commands": {
+                "setlog": {
+                    "description": "Sets up a log channel.",
+                    "test": "This channel has been set up to log actions.\nThis means that I will send bans/warns/kicks here.\n**NOTE:** Audit logs (message delete/edit, channel/role creation/deletion etc) is not supported for now.",
+                    "embeds": {
+                        "error": {
+                            "title": "Error",
+                            "description": "I don't have enough permissions to write in that channel.",
+                            "footer": {
+                                "text": "Please fix the permissions."
+                            }
+                        },
+                        "success": {
+                            "title": "Success",
+                            "description": "{} has been set up as log channel."
+                        }
+                    }
+                },
+                "muterole": {
+                    "description": "Sets up the muted role.",
+                    "error": "Muted role is already set up.",
+                    "error_footer": "If you want to change role, just mention it.",
+                    "name": "Muted",
+                    "success": "Success",
+                    "done": "The muted role has been set to {}."
+                },
+                "warn": {
+                    "description": "Warns a member.",
+                    "msg": "You have been warned in {g}.",
+                    "msg_": "You have been warned in {g} for: {r}",
+                    "log": "has been warned by",
+                    "warn": "Warn",
+                    "case": "This is the {} case.",
+                    "logged": "Warning has been logged for {}. I couldn't warn them, they disabled DMs.",
+                    "success": "Success",
+                    "done": "{} has been warned."
+                },
+                "kick": {
+                    "description": "Kicks a member.",
+                    "error": "I don't have enough permissions to kick them.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "log": "has been kicked by",
+                    "msg": "You have been kicked in {g}.",
+                    "msg_": "You have been kicked in {g} for: {r}",
+                    "done": "{} has been kicked."
+                },
+                "ban": {
+                    "description": "Bans a member.",
+                    "error": "I don't have enough permissions to ban them.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "log": "has been banned by",
+                    "msg": "You have been banned in {g}.",
+                    "msg_": "You have been banned in {g} for: {r}",
+                    "done": "{} has been banned."
+                },
+                "mute": {
+                    "description": "Mutes a member.",
+                    "notset": "You must set up a muted role first.\nTo set one, run `{}muterole (@role)`.",
+                    "error": "I don't have enough permissions to add the role.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "log": "has been muted by",
+                    "msg": "You have been muted in {g}.",
+                    "msg_": "You have been muted in {g} for: {r}",
+                    "done": "{} has been muted."
+                },
+                "unmute": {
+                    "description": "Unmutes a member.",
+                    "notset": "You don't have a muted role set up.\nYou will have to unmute them manually.",
+                    "error": "I don't have enough permissions to remove the role.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "log": "has been unmuted by",
+                    "done": "{} has been unmuted."
+                },
+                "nuke": {
+                    "description": "Nukes (deletes EVERY message in) a channel.",
+                    "error": "I don't have enough permissions to nuke the channel.",
+                    "this": "this",
+                    "that": "that",
+                    "embeds": {
+                        "confirm": {
+                            "title": "Are you sure?",
+                            "description": "This command will delete EVERY SINGLE MESSAGE in {} channel!\nIf you are sure and responsible about what might happen send \"Yes, do as I say!\". Otherwise, send anything else to abort.\n**Unexpected bad things might happen if you decide to continue!**"
+                        }
+                    },
+                    "yes": "Yes, do as I say!",
+                    "aborted": "Aborted.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "nuked": "This channel has been nuked!",
+                    "log": "nuked"
+                },
+                "purge": {
+                    "description": "Deletes an amount of messages.",
+                    "lt1": "You can only purge at least 1 message.",
+                    "ut2": "You can only purge up to 2000 messages.",
+                    "use_nuke": "Use {}nuke to purge the entire chat.",
+                    "error": "I don't have enough permissions to delete messages.",
+                    "fix": "Please fix the permissions.",
+                    "case": "This is the {} case.",
+                    "success": "Success",
+                    "message": "message",
+                    "messages": "messages",
+                    "has": "has been purged",
+                    "have": "have been purged",
+                    "by": "by",
+                    "done": "Purged {} {}"
+                }
+            }
+        }
+    }
+}
